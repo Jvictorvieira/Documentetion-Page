@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="doc container">
+        <div class="navbar-doc">
+            <nav id="navbar">
+                <header class="nav-header">
+                    <h2>Python</h2>
+                    <a href="#Introduction_to_Python" class="nav-link btn-outline-dark">Introduction to Python</a>
+                    <a href="#Hello_World" class="nav-link btn-outline-dark">Hello World</a>
+                    <a href="#Comments" class="nav-link btn-outline-dark">Comments</a>
+                    <a href="#Varibles" class="nav-link btn-outline-dark">Varibles</a>
+                    <a href="#How_to_declare_varibles" class="nav-link btn-outline-dark">How to declare varibles</a>
+                </header>
+            </nav>
+        </div>
+        <div class="main">
+            <main id="main-doc">
+                <section class="main-section" id="Introduction_to_Python">
+                    <header>
+                        <h3>Introduction to Python</h3>
+                    </header>
+                    <p>
+                        Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+                    </p>
+                    <ul>
+                        <p>It is used for:</p>
+                        <li>web development (server-side),</li>
+                        <li>software development,</li>
+                        <li>mathematics,</li>
+                        <li>system scripting.</li>
+                    </ul>
+                    <p>Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.</p>
+                    <p>Many PCs and Macs will have python already installed.</p>
+                    <p>If you find that you do not have Python installed on your computer, then you can download it for free from the following website: <a href="https://www.python.org/">https://www.python.org/</a></p>
+                </section>
+                <hr class="solid">
+                <section class="main-section" id="Hello_World">
+                    <header>
+                        <h3>Hello World</h3>
+                    </header>
+                    <p>Let's write our first Python file, called helloworld.py, which can be done in any text editor.</p>
+                    <code>
+                        print(<span id="value">"Hello World"</span>)
+                    </code>
+                    <p>Simple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:</p>
+                    <code>
+                        C:\Users\Your Name>python helloworld.py
+                    </code>
+                    <p>The output should read:</p>
+                    <code>
+                        Hello, World!
+                    </code>
+                </section>
+                <hr class="solid">
+                <section class="main-section" id="Comments">
+                    <header>
+                        <h3>Comments</h3>
+                    </header>
+                    <p>Comments can be used to explain Python code. Also can be used to make the code more readable and can be used to prevent execution when testing code.</p>
+                    <code>
+                        #This is a comment
+                        <br>
+                        print("Hello, World!")
+                    </code>
+                    <p>The output should read:</p>
+                    <code>
+                        Hello World
+                    </code>
+                </section>
+                <hr class="solid">
+                <section class="main-section" id="Varibles">
+                    <header>
+                        <h3>Varibles</h3>
+                    </header>
+                    <p>Variables are containers for storing data values.</p>
+                    <P>Python has five standard data types:</P>
+                    <ul>
+                        <li>Numbers</li>
+                        <li>String</li>
+                        <li>List</li>
+                        <li>Tuple</li>
+                        <li>Dictionary</li>
+                    </ul>
+                </section>
+                <hr class="solid">
+                <section class="main-section" id="How_to_declare_varibles">
+                    <header>
+                        <h3>How to declare varibles</h3>
+                    </header>
+                    <p><p>A variable is created the moment you first assign a value to it.</p></p>
+                    <code>
+                        u = 5 #This is a Number
+                        <br>
+                        v = "John" #This is a String(You also can use simple quotes '')
+                        <br>
+                        x = [1, "John"] #This is a List
+                        <br>
+                        y = (1, "John") #This is a Tuple(Different of lists, tuples are immutables)
+                        <br>
+                        z = {1:"Number", "John":"String"}
+                        <br>
+                        print(u)
+                        <br>
+                        print(v)
+                        <br>
+                        print(x)
+                        <br>
+                        print(y)
+                        <br>
+                        print(z)
+                    </code>
+                    <p>The output should read:</p>
+                    <code>
+                        5
+                        <br>
+                        John
+                        <br>
+                        [1, "John"]
+                        <br>
+                        (1, "John")
+                        <br>
+                        {1:"Number", "John":"String"}
+                    </code>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
